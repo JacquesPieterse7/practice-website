@@ -10,7 +10,7 @@
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), 
-    rgba(4,9,30,0.7)), url(./images/banner.png);
+    rgba(4,9,30,0.7)), url(./images/susan-holt-simpson-H7SCRwU1aiM-unsplash.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -362,3 +362,126 @@ h3 {
     padding: 18px 0;
 }
 
+
+/* ----------About us page----------- */
+.sub_header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),
+    rgba(4,9,30,0.7)),url(./images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub_header h1 {
+    margin-top: 100px;
+}
+
+.about_us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about_col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about_col img {
+    width: 100%;
+}
+
+.about_col h1 {
+    padding-top: 0;
+}
+
+.about_col p {
+    padding: 15px 0 25px;
+}
+
+.red_btn {
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+
+.red_btn:hover {
+    color: #fff;
+}
+
+/* ---------------blog page---------- */
+
+.blog_content {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog_left {
+    flex-basis: 65%;
+}
+.blog_left img {
+    width: 100%;
+}
+.blog_left h2 {
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.blog_left p {
+    color: #999;
+    padding: 0;
+}
+
+/* blog right  */
+.blog_right {
+    flex-basis: 32%;
+}
+.blog_right h3 {
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.blog_right div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* comment box */
+.comment_box {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment_box h3 {
+    text-align: left;
+}
+/* comment form  */
+.comment_form input,
+.comment_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.comment_form button {
+    margin: 10px 0;
+}
+
+@media(max-width:700px){
+    .sub_header h1{
+        font-size: 24px;
+    }
+}
